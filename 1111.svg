@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>fuchsia</title>
+  <style>svg { background: fuchsia }</style>
+  <rect fill="fuchsia" width="25%" height="100%" x="0%" />
+  <rect fill="hotpink" width="25%" height="100%" x="25%" />
+  <rect fill="fuchsia" width="25%" height="100%" x="50%" />
+  <rect fill="hotpink" width="100%" height="100%" x="75%" />
+</svg>

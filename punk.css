@@ -1,0 +1,40 @@
+:any-link {
+  color: inherit;
+  background-color: transparent;
+}
+
+::selection {
+  background-color: navy;
+  color: fuchsia;
+}
+
+i,
+mark,
+code {
+  background-color: fuchsia;
+  color: navy;
+}
+
+:root {
+  background-color: #1ed;
+  background-image: linear-gradient(#e0e0e0, #1ed, #bae);
+  color: navy;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: navy;
+    background-image: linear-gradient(lawngreen, navy 3%, navy 97%, teal);
+    color: fuchsia;
+  }
+  
+  ::selection {
+    background-color: fuchsia;
+    color: navy;
+  }
+}
+
+.envy { background-color: #de1; color: #111 }
+.cyan { background-color: cyan; color: #111 }
+.yell { background-color: yellow; color: #111 }
+.blaq { background-color: black; color: seashell }
